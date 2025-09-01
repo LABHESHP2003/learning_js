@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <!-- inline example -->
+         <button onclick="alert('Inline Js example')">Click Inline</button>
+
+         <!-- internal example -->
+          <button onclick="showMsg1()">Click Internal</button>
+
+        <!-- external example -->
+        <button onclick="showMsg2()">Click External</button>
+
+
+    </h1>
+
+    <!-- internal -->
+    <script>
+        function showMsg1(){
+            alert("This is internal msg");
+        }
+    </script>
+
+    <!-- external -->
+     <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
