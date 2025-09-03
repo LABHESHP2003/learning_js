@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_Method</title>
+</head>
+<body>
+    <script>
+        var a = ["Kalpesh",28,"BE ENTC", "Pune"];
+        document.writeln(a + "<br>");
+        a[1] = 41;
+        document.writeln(a + "<br>");
+
+        delete a[2];
+        document.writeln(a + "<br>");
+    </script>
+
+    <script>
+        var n = ["Kalpesh", "Jayesh", "Akash", "Amit", "Rajesh"];
+        document.writeln(n + "<br>");
+        n.sort();
+        document.writeln(n + "<br>");
+        n.reverse();
+        document.writeln(n + "<br>");
+
+    </script>
+
+    <script>
+        var h = ["Kalpesh", "Jayesh", "Akash", "Amit", "Rajesh"];
+        document.writeln(h + "<br>");
+        h.push("Suresh");
+        document.writeln(h + "<br>");
+        h.pop();
+        document.writeln(h + "<br>");
+    </script>
+
+    <script>
+        var m = ["Kalpesh", "Jayesh", "Akash", "Amit", "Rajesh"];
+        document.writeln(m + "<br>");
+        m.shift();
+        document.writeln(m + "<br>");
+        m.unshift("Suresh");
+        document.writeln(m + "<br>");
+    </script>
+
+
+
+    <script>
+        var f = ["Kalpesh", "Jayesh"];
+        var g = ["Akash", "Amit"];
+        var l = ["Rajesh", "Suresh"];
+        var con = f.concat(g,l);
+        document.writeln(con + "<br>");
+
+    </script>
+    
+</body>
+</html>

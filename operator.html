@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Arithmatic operator +,-,/,*,%,++,--,**
+        var a = 2;
+        var b = 6;
+        var c = a**b;
+        document.write(c);
+        document.write("<br>");
+
+
+
+        // Comparison operator ==,===,<, >,<=,>=
+
+        var p = 5;
+        var q = "5";
+
+        if(p==q){
+            document.write("TRUE == ");
+        }
+        else if(p === q){//also compares datatype
+            document.write("TRUE === ");
+        }
+        else{
+            document.write("FALSE");
+        }
+                    document.write("<br>");
+
+
+
+        //Logical operator && || ?
+
+        var age = 51;
+        if(age >= 18 && age <= 50){
+            document.write("Adult");
+            document.write("<br>");
+        }
+        else if(age<18 && age>0){
+            document.write("Child");
+            document.write("<br>");            
+        }
+        else if(age>50 && age < 100){
+            document.write("Senior Citizen");
+            document.write("<br>");
+        }
+
+        document.write("<br>");
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Days in a Month</title>
+</head>
+<body>
+    <script>
+        var month = prompt("Enter the month:").toLowerCase();
+
+        if (month === "january" || month === "march" || month === "may" || month === "july" ||
+            month === "august" || month === "october" || month === "december") {
+            alert("31 days");
+        } else if (month === "april" || month === "june" || month === "september" || month === "november") {
+            alert("30 days");
+        } else if (month === "february") {
+            alert("28 or 29 days");
+        } else {
+            alert("Invalid month entered");
+        }
+    </script>
+</body>
+</html>
