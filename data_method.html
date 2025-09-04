@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var now = new Date();
+
+        document.write(now.toDateString() + "<br>");      // Full date string
+        document.write(now.getDate() + "<br>");           // Day of the month (1-31)
+        document.write(now.getMonth() + 1 + "<br>");      // Month (0-11) + 1 to make it (1-12)
+        document.write(now.getDay() + "<br>");            // Day of week (0 = Sunday, 6 = Saturday)
+        document.write(now.getFullYear() + "<br>");       // Full year (e.g. 2025)
+    </script>
+
+</body>
+
+</html>
